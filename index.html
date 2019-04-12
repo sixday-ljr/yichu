@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/denglu.css" />
-    <link rel="stylesheet" href="./font/iconfont.css" />
+    <meta charset="utf-8" />
+    <title></title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <link rel="stylesheet" href="./css/daohang.css" />
+
+    <!-- Demo styles -->
+  </head>
+  <body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/u5.jpg" alt="" srcset="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/u7.jpg" alt="" srcset="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/u9.jpg" alt="" srcset="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/u11.jpg" alt="" srcset="" />
+          <span><a href="dengluye.html">来到一处</a></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="./js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
     <script>
       document.documentElement.style.fontSize =
         document.documentElement.clientWidth / 7.5 + 'px';
     </script>
-  </head>
-  <body>
-    <div class="wrap">
-      <div class="contant">
-        <a class="chahao" href="javascript:0;"
-          ><span class="iconfont icon-chahao"></span
-        ></a>
-        <h6 class="pass">找回密码</h6>
-        <div class="logo"></div>
-        <div class="form">
-          <span>
-            <img src="./images/people_32.png" alt="" />
-          </span>
-          <input type="text" placeholder="请输入邮箱地址/手机号" />
-        </div>
-        <div class="form-down">
-          <span>
-            <img src="./images/lock.png" alt="" />
-          </span>
-          <input type="password" placeholder="请输入密码" />
-          <a class="login" href="zhuye.html">登录</a>
-          <a class="register" href="javascript:0;">用户注册</a>
-          <div class="other">
-            <a class="weibo" href="#">
-              <span class="iconfont icon-weibo"></span>
-            </a>
-            <a class="weixin" href="#"
-              ><span class="iconfont icon-changyonglogo28"></span
-            ></a>
-            <a class="QQ" href="#"><span class="iconfont icon-qq"></span></a>
-          </div>
-        </div>
-        <h6 class="bot">登录或注册即同意一处<span>用户服务协议</span></h6>
-      </div>
-    </div>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1
+      });
+    </script>
   </body>
 </html>
