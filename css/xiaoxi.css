@@ -1,0 +1,205 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-image: url(../images/u48.png);
+  background-repeat: no-repeat;
+  width: 7.5rem;
+  padding-top: 0.15rem;
+}
+header > h6 {
+  font-size: 0.4rem;
+  margin-left: 2.2rem;
+  line-height: 0.56rem;
+  padding: 0.6rem 0 0.25rem 0;
+}
+header > h6 > span {
+  margin-left: 1.56rem;
+}
+section {
+  width: 7.5rem;
+  overflow: auto;
+}
+.kongbai {
+  margin-top: 1.5rem;
+}
+.text {
+  overflow: hidden;
+  padding-top: 0.39rem;
+  padding-left: 0.38rem;
+  border-bottom: 0.15rem solid #f5f5f5;
+}
+.text > h6 {
+  color: #ccc;
+  font-size: 0.36rem;
+  margin-bottom: 0.18rem;
+}
+.text > img {
+  display: block;
+  width: 1.78rem;
+  float: left;
+  margin-bottom: 0.52rem;
+}
+.text-right {
+  padding-top: 0.2rem;
+  float: left;
+  padding-left: 0.26rem;
+}
+.text-right > h6 {
+  font-size: 0.4rem;
+}
+.text-right > h6 > span {
+  color: #9b9b9b;
+  font-size: 0.3rem;
+  margin-bottom: 0.62rem;
+}
+.text-right > h5 {
+  font-size: 0.3rem;
+  color: #d9d9d9;
+}
+.text-right > h5 > span {
+  font-size: 0.4rem;
+  color: #9b9b9b;
+}
+.text-main {
+  padding-left: 0.38rem;
+  border-bottom: 0.15rem solid #f5f5f5;
+}
+.text-main > h6 {
+  padding-top: 0.22rem;
+  font-size: 0.36rem;
+  color: #ccc;
+  margin-bottom: 0.38rem;
+}
+.text-main > h6 > span {
+  float: right;
+  padding-right: 0.38rem;
+}
+.swiper-wrapper {
+  margin-bottom: 0.4rem;
+}
+.swiper-slide > img {
+  width: 2.48rem;
+}
+.swiper-slide > h6 {
+  width: 2rem;
+  font-size: 0.36rem;
+  text-align: center;
+}
+.swiper-slide > h6 > span {
+  font-size: 0.3rem;
+  color: #9b9b9b;
+}
+.article {
+  background-image: url(../images/xiaoheiren_59.png);
+  background-repeat: no-repeat;
+  background-size: 0.42rem;
+  background-position: 0.38rem 0.38rem;
+  padding-left: 0.38rem;
+}
+.article > h6 {
+  float: left;
+  font-size: 0.36rem;
+  margin-top: 0.33rem;
+  margin-left: 0.5rem;
+  color: #838182;
+}
+.article > h6 > span {
+  margin-left: -0.36rem;
+  color: #000;
+  font-size: 0.4rem;
+}
+.article > img {
+  float: right;
+  width: 0.57rem;
+  margin-right: 0.38rem;
+  margin-top: 0.6rem;
+}
+p {
+  padding-left: 0.38rem;
+  display: block;
+  font-size: 0.36rem;
+  color: #ccc;
+  line-height: 0.46rem;
+}

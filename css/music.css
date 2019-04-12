@@ -1,0 +1,164 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  background-image: url(../images/u48.png);
+  background-repeat: no-repeat;
+  width: 7.5rem;
+  z-index: 10;
+}
+.back {
+  margin-top: 0.66rem;
+  overflow: hidden;
+}
+.back > a > span {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.72rem;
+  float: left;
+}
+.back > h6 {
+  margin-left: 2.81rem;
+  font-size: 0.36rem;
+  color: #13b190;
+  float: left;
+  line-height: 0.72rem;
+}
+section {
+  width: 7.5rem;
+  overflow: auto;
+}
+.kongbai {
+  margin-top: 1.42rem;
+}
+.music-top,
+.music-main {
+  padding: 0.34rem 0.3rem 0 0.3rem;
+}
+.music-top > h6,
+.music-main > h6 {
+  padding-left: 0.1rem;
+  font-size: 0.3rem;
+  color: #039a7b;
+  border-left: 0.01rem solid #039a7b;
+  margin-bottom: 0.6rem;
+}
+.music-top > h6 > span,
+.music-main > h6 > span {
+  margin-left: 5.1rem;
+}
+.swiper-container {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+section > .swiper-container {
+  padding-left: 0.6rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 15px solid #ccc;
+}
+.swiper-slide > img {
+  width: 2.5rem;
+  display: block;
+}

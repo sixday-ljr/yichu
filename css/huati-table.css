@@ -1,0 +1,173 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrap {
+  width: 7.5rem;
+  /* height: 13.37rem; */
+  box-sizing: border-box;
+}
+.wrap > a {
+  display: block;
+}
+header {
+  width: 7.5rem;
+  font-size: 0.4rem;
+  background-image: url(../images/u48.png);
+  background-repeat: no-repeat;
+  background-size: 7.5rem 0;
+  background: -webkit-linear-gradient(top, #1f9496, #35f0be);
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+header {
+  z-index: 2;
+}
+header .dynamic {
+  float: left;
+  padding: 0.55rem 0 0.25rem 1.5rem;
+  text-align: center;
+}
+header .dynamic p {
+  color: #ffffff;
+  font-weight: lighter;
+}
+header .dynamic p:nth-child(2) {
+  font-size: 0.1rem;
+}
+header .chat {
+  float: right;
+  padding: 0.55rem 1.5rem 0.25rem 0;
+  text-align: center;
+}
+header .chat p {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: lighter;
+}
+header .chat p:nth-child(2) {
+  font-size: 0.1rem;
+}
+section {
+  width: 7.5rem;
+}
+.container {
+  width: 7.5rem;
+  overflow: auto;
+  padding-top: 1.8rem;
+  padding-bottom: 1rem;
+}
+.container .table {
+  padding: 0.2rem;
+  border: 1px solid #ccc;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  border-radius: 0.2rem;
+  position: relative;
+  margin-bottom: 0.2rem;
+}
+
+.container .table img {
+  width: 0.9rem;
+  float: left;
+  margin-right: 0.26rem;
+}
+.container .table .wenzi p:first-child {
+  font-size: 0.28rem;
+  color: #626262;
+}
+.container .table .wenzi p:last-child {
+  font-size: 0.2rem;
+  color: #918f8f;
+  margin-top: 0.18rem;
+}
+.container .table span {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.46rem;
+  font-size: 0.5rem;
+  color: #afd8d0;
+}

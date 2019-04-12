@@ -1,0 +1,119 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+footer {
+  width: 7.5rem;
+  background-color: #fff;
+  position: fixed;
+  line-height: 0.93rem;
+  bottom: 0;
+}
+footer > a {
+  text-decoration: none;
+}
+footer > a > img {
+  margin-bottom: 0.14rem;
+}
+footer > a:nth-child(1) > img {
+  margin-left: 0.54rem;
+  width: 0.5rem;
+}
+footer > a:nth-child(2) > img {
+  margin-left: 0.6rem;
+  width: 0.5rem;
+}
+footer > a:nth-child(3) > img {
+  width: 0.8rem;
+  margin-left: 0.56rem;
+}
+footer > a:nth-child(4) > img {
+  width: 0.5rem;
+  margin-left: 0.6rem;
+}
+footer > a:nth-child(5) > img {
+  width: 0.5rem;
+  margin-left: 0.7rem;
+}
